@@ -9,7 +9,7 @@ import org.bukkit.plugin.java.JavaPlugin;
  */
 public class Main extends JavaPlugin{
     
-          
+    //Esta madre es oara cuando se prende     
     public void onEnable(){
     getLogger().info("Disabled!");
     }
