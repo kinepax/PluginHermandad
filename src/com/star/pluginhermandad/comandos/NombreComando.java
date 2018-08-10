@@ -5,13 +5,10 @@
  */
 package com.star.pluginhermandad.comandos;
 
-import org.bukkit.Bukkit;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
-import org.bukkit.entity.Entity;
 import org.bukkit.entity.Player;
-
 
 /**
  *
@@ -33,10 +30,6 @@ public class NombreComando implements CommandExecutor
                 nombre = player.getName();
                 player.setDisplayName("[" + args[0] + "]" + nombre);//Cambia el nombre del jugador solo en el chat.
                 player.setPlayerListName("[" + args[0] + "]" + nombre);//Cambia el nombre del jugador en el tab.
-               
-              
-                
-                
             } 
             else//Si el comando esta vacio, muestra el uso correcto del mismo.
             {
