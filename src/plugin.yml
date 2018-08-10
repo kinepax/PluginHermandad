@@ -1,8 +1,9 @@
-## YAML Template.
----
-name: PluginHermandad;
-author: KineMonje;
+name: PluginHermandad
+author: KineMonje
 version: 1.0
-main : com.star.pluginhermandad
-descripcion: Plugin para crear hermandades
+main : com.star.pluginhermandad.Main
+description: Plugin para crear hermandades
 
+commands:
+    nombre:
+        usage: /<command>
